@@ -12,7 +12,7 @@ export default class VRindex extends React.Component {
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Good designs, not only beautiful.
+            Good designs, not just beautiful
           </Text>
         </View>
       </View>
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   greetingBox: {
-    padding: 20,
+    padding: 10,
     backgroundColor: '#000000',
     //borderColor: '#639dda',
     //borderWidth: 2,
